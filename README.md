@@ -20,3 +20,4 @@ All source files are compiled using [brunch](http://brunch.io). To get started:
 
     brunch build
 
+Source files are under src/ and will compile to assets/css or js
