@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "start": "brunch watch --server",
-    "test": "brunch test"
+    "test": "brunch test",
+    "build": "brunch b --production"
   },
   "author": "Peter Mellett",
   "license": "MIT",
