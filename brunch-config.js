@@ -1,5 +1,10 @@
 // See http://brunch.io/#documentation for docs.
 exports.config = {
+  plugins: {
+    sass: {
+      mode: 'ruby'
+    }
+  },
   conventions: {
     assets: /^assets\/(css|js)/
   },
