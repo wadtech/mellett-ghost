@@ -6,7 +6,7 @@ exports.config = {
     }
   },
   conventions: {
-    assets: /^assets\/(css|js)/
+    assets: /^assets/
   },
   paths: {
     public: 'assets',
@@ -17,10 +17,7 @@ exports.config = {
       joinTo: 'js/index.js'
     },
     stylesheets: {
-      joinTo: 'css/screen.css',
-      order: {
-        before: ['css/normalize.css']
-      }
+      joinTo: 'css/screen.css'
     }
   }
 }
