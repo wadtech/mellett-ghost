@@ -1,4 +1,33 @@
 {
   "name": "Mellett",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "description": "A mangling of the default \"Casper\" theme for [Ghost](github.com/TryGhost/Ghost).",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wadtech/mellett-ghost.git"
+  },
+  "keywords": [
+    "ghost",
+    "blog",
+    "casper",
+    "theme"
+  ],
+  "scripts": {
+    "start": "brunch watch --server",
+    "test": "brunch test"
+  },
+  "author": "Peter Mellett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wadtech/mellett-ghost/issues"
+  },
+  "homepage": "https://github.com/wadtech/mellett-ghost",
+  "devDependencies": {
+    "brunch": "^1.7.18",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "auto-reload-brunch": ">= 1.0 < 1.8"
+  }
 }
