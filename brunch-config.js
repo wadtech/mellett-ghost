@@ -12,7 +12,10 @@ exports.config = {
       joinTo: 'js/index.js'
     },
     stylesheets: {
-      joinTo: 'css/screen.css'
+      joinTo: 'css/screen.css',
+      order: {
+        before: ['css/normalize.css']
+      }
     }
   }
 }
