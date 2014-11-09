@@ -1,23 +1,21 @@
 // See http://brunch.io/#documentation for docs.
 exports.config = {
-  plugins: {
-    sass: {
-      mode: 'ruby'
-    }
-  },
   conventions: {
     assets: /^assets/
   },
   paths: {
     public: 'assets',
-    watched: ["src/"]
+    watched: ['src/']
   },
   files: {
     javascripts: {
       joinTo: 'js/index.js'
     },
     stylesheets: {
-      joinTo: 'css/screen.css'
+      joinTo: 'css/screen.css',
+      order: {
+        before: ['nomalize.styl']
+      }
     }
   }
 }

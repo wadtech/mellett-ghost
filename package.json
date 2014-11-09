@@ -24,12 +24,13 @@
   },
   "homepage": "https://github.com/wadtech/mellett-ghost",
   "devDependencies": {
-    "brunch": "^1.7.18",
-    "javascript-brunch": ">= 1.0 < 1.8",
-    "css-brunch": ">= 1.0 < 1.8",
-    "uglify-js-brunch": ">= 1.0 < 1.8",
-    "clean-css-brunch": ">= 1.0 < 1.8",
     "auto-reload-brunch": ">= 1.0 < 1.8",
-    "sass-brunch": ">= 1.0 < 1.8"
+    "brunch": "^1.7.18",
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "stylus": "^0.49.3",
+    "stylus-brunch": "^1.8.1",
+    "uglify-js-brunch": ">= 1.0 < 1.8"
   }
 }
