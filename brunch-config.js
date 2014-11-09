@@ -17,7 +17,7 @@ exports.config = {
     stylesheets: {
       joinTo: 'css/screen.css',
       order: {
-        before: ['nomalize.styl']
+        before: ['normalize.styl']
       }
     }
   }
