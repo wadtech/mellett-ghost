@@ -1,5 +1,8 @@
 // See http://brunch.io/#documentation for docs.
 exports.config = {
+  modules: {
+    wrapper: false
+  },
   conventions: {
     assets: /^assets/
   },
